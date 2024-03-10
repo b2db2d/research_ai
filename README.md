@@ -17,3 +17,6 @@ Download models from, https://drive.google.com/drive/folders/1I5xhnLmaWlR2CDEG-e
 
 ### TODO
 - [ ] Open up width/height variable in generating single view pipeline
+- [ ] Batch Processing / Multiple Single View Output
+- [ ] Fine-tuning MVDream
+- [ ] Training Nerf / Gaussian Splatting on large dataset, with augmentation
