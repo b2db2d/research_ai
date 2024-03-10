@@ -1,0 +1,13 @@
+device: 'cuda'
+
+base_model_path: 'models/sd1_5/sd1_5_chill.safetensors'
+lora_path: 'models/sd1_5_lora/chubby_lora.safetensors'
+image_save_path: 'output_example.png'
+
+width: 512
+height: 512
+num_inference_steps: 30
+guidance_scale: 7.0
+
+positive_prompt_prefix: "photorealistic, 8k, masterpiece, high quality, facing forward, white background, global lighting"
+lora_trigger_word: "fate cute, with a belly"

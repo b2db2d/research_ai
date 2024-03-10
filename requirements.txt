@@ -1,0 +1,6 @@
+torch==2.2.1
+diffusers==0.26.3
+Flask==3.0.2
+omegaconf==2.3.0
+Pillow==10.0.1
+Requests==2.31.0
