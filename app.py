@@ -8,8 +8,8 @@ app = Flask(__name__)
 config_path = 'config/animal_variation.yaml'
 pipe = Text2ImagePipeline(config_path)
 
-@app.route('/inference', methods=["POST"])
-def inference():
+@app.route('/generate_single_view', methods=["POST"])
+def generate_single_view():
     if request.method == 'POST':
         data = request.get_json()
         prompt = data["prompt"]
