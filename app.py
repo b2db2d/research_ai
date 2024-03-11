@@ -22,7 +22,6 @@ def generate_single_view():
         
         data = buffer.read()
         data = base64.b64encode(data).decode()
-
         return jsonify({'image': data, 'prompt': prompt})
         
 if __name__ == "__main__":
