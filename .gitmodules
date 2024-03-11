@@ -1,0 +1,3 @@
+[submodule "externals/vlm"]
+	path = externals/vlm
+	url = https://github.com/birth2death/vlm.git
