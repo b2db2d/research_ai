@@ -12,7 +12,7 @@ pip install -r externals/vlm/requirements.txt
 
 Download models from, https://drive.google.com/drive/folders/1I5xhnLmaWlR2CDEG-ehAz3zyNoHzzZzi?usp=drive_link, and place safetensors within ***sd1_5***, ***sd1_5_lora*** under ***models/sd1_5***, ***models/sd1_5_lora*** directories, respectively.
 
-### How to use
+### Get Started
 
 Toggle VLM openapi server via,
 ```
@@ -22,9 +22,9 @@ Followed by,
 ```
 python app.py
 ```
-to run the flask api server.
+to run the *Task2Diffusion* api server.
 
-Sample usage is placed under ***client.py***
+Sample api usage can be found under ***client.py***
 
 ### TODO
 - [x] <del>LLM / VLM Integration to extract prompts from task information</del>
