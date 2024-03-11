@@ -16,6 +16,7 @@ Download models from, https://drive.google.com/drive/folders/1I5xhnLmaWlR2CDEG-e
 ***app.py*** runs flask api server, and sample usage is written under ***client.py***.
 
 ### TODO
+- [x] LLM / VLM Integration to extract prompts from task information
 - [ ] Open up width/height variable in generating single view pipeline
 - [ ] Batch Processing / Multiple Single View Output
 - [ ] Fine-tuning MVDream
