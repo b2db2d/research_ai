@@ -5,9 +5,17 @@ lora_path: 'models/sd1_5_lora/chubby_lora.safetensors'
 image_save_path: 'output_example.png'
 
 width: 512
-height: 512
+height: 768
 num_inference_steps: 30
 guidance_scale: 7.0
 
-positive_prompt_prefix: "photorealistic, 8k, masterpiece, high quality, facing forward, white background, global lighting"
+positive_prompt_prefix: "8k, masterpiece, high quality, facing forward, white background, global lighting"
 lora_trigger_word: "fate cute, with a belly"
+
+vlm_template_image_path: "models/template.png"
+vlm_model: "cogvlm-chat-17b"
+vlm_max_tokens: 2048
+vlm_temperature: 0.8
+vlm_top_p: 0.8
+vlm_use_stream: False
+vlm_task_to_prompt_template: "Within 10 words, succintly describe name, shape and color of an animal of similar shape as the picture, that fits in the scenario, "

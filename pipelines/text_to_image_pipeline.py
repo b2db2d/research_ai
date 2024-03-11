@@ -47,7 +47,7 @@ class Text2ImagePipeline(object):
                           num_inference_steps=self.num_inference_steps, guidance_scale=self.guidance_scale).images[0]
         if path is not None:
             image.save(path)
-        return image
+        return image, prompt
 
 if __name__ == "__main__":   
     config_path = 'config/animal_variation.yaml'
